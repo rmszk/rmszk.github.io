@@ -1,19 +1,28 @@
 ---
 icon: material/home-circle
+title: Home | Shahroz
+description: Data Analytics & Data Scientist Portfolio
 ---
-<!-- ============================================================ -->
-<!-- PROFILE SECTION — Center top hero area -->
-<!-- ============================================================ -->
+
+<phoenix-meta>
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Portfolio | Shahroz" />
+  <meta property="og:description" content="Data Analytics & Data Scientist Portfolio - Sybrid Karachi" />
+  <meta property="og:url" content="https://rmszk.github.io/" />
+  <meta property="og:image" content="https://rmszk.github.io/assets/pic.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Portfolio | Shahroz" />
+  <meta name="twitter:description" content="Data Analytics & Data Scientist Portfolio - Sybrid Karachi" />
+  <meta name="twitter:image" content="https://rmszk.github.io/assets/pic.png" />
+</phoenix-meta>
 
 <div class="profile-hero">
   <img src="assets/pic.png" class="profile-pic" alt="Shahroz">
   <h1>Shahroz</h1>
   <p class="tagline">Data Analytics &nbsp;|&nbsp; Data Scientist</p>
 
-  <!-- Visitor Badge -->
   <img src="https://visitor-badge.laobi.icu/badge?page_id=rmszk.portfolio" alt="Visitors">
 
-  <!-- Social Links -->
   <div class="social-links">
     <a href="https://github.com/rmszk" target="_blank">
       <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white">
@@ -22,10 +31,6 @@ icon: material/home-circle
 </div>
 
 ---
-
-<!-- ============================================================ -->
-<!-- ABOUT SECTION — Short intro -->
-<!-- ============================================================ -->
 
 ## 👋 About Me
 
@@ -37,10 +42,6 @@ with a focus on **Data Analytics & Visualization**.
 
 ---
 
-<!-- ============================================================ -->
-<!-- TOOLS SECTION — Badges for tech stack -->
-<!-- ============================================================ -->
-
 ## 🛠️ Tools I Use
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
@@ -51,10 +52,6 @@ with a focus on **Data Analytics & Visualization**.
 
 ---
 
-<!-- ============================================================ -->
-<!-- HIGHLIGHTS SECTION — Key points -->
-<!-- ============================================================ -->
-
 ## 📌 Highlights
 
 - 🏢 **Sybrid Karachi** — Technical Support Team Lead
@@ -64,19 +61,11 @@ with a focus on **Data Analytics & Visualization**.
 
 ---
 
-<!-- ============================================================ -->
-<!-- QUICK LINKS SECTION — Navigation shortcuts -->
-<!-- ============================================================ -->
-
 ## 🚀 Quick Links
 
 [📂 Projects](projects/index.md) | [🧠 Skills](skills.md) | [📄 Resume](resume.md) | [📫 Contact](contact.md) | [✍️ Blog](blog/index.md)
 
 ---
-
-<!-- ============================================================ -->
-<!-- GITHUB LINK — Full projects & repos -->
-<!-- ============================================================ -->
 
 > 💡 For full list of projects and repositories, visit my
 > [GitHub Profile](https://github.com/rmszk)

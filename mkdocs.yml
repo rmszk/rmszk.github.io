@@ -1,9 +1,178 @@
+# # ============================================================
+# # SITE INFORMATION
+# # ============================================================
+# site_name: Portfolio
+# site_url: https://rmszk.github.io/
+# site_description: A Collection of my projects
+
+
+# # ============================================================
+# # NAVIGATION
+# # ============================================================
+# nav:
+#   - Home: index.md
+#   - Projects: projects/index.md
+#   - Skills: skills.md
+#   - About: about.md
+#   - Resume: resume.md
+#   - Blog:
+#       - blog/index.md
+#   - Contact: contact.md
+
+
+# # ============================================================
+# # THEME — Material for MkDocs
+# # ============================================================
+# theme:
+#   name: material
+#   logo: assets/pic.png
+#   custom_dir: overrides
+
+#   font:
+#     text: Roboto
+#     code: Roboto Mono
+
+#   features:
+#     # --- Navigation Features ---
+#     - navigation.icons
+#     - navigation.instant
+#     - navigation.tracking
+#     - navigation.sections
+#     - navigation.top
+#     - navigation.indexes
+
+#     # --- Search Features ---
+#     - search.suggest
+#     - search.highlight
+
+#     # --- Content Features ---
+#     - content.code.copy
+#     - content.tabs.link
+#     - content.action.edit
+#     - content.action.view
+#     - header.autohide
+
+#   icon:
+#     repo: fontawesome/brands/github
+
+#   # --- Light / Dark Mode Toggle ---
+#   palette:
+#     - scheme: default            # ☀️ Light mode
+#       primary: blue
+#       accent: indigo
+#       toggle:
+#         icon: material/lightbulb-outline
+#         name: Switch to dark mode
+
+#     - scheme: slate              # 🌙 Dark mode
+#       primary: blue
+#       accent: indigo
+#       toggle:
+#         icon: material/lightbulb-on
+#         name: Switch to light mode
+
+
+# # ============================================================
+# # GITHUB REPO LINK
+# # ============================================================
+# repo_url: https://github.com/rmszk
+# repo_name: rmszk
+
+
+# # ============================================================
+# # PLUGINS
+# # ============================================================
+# plugins:
+#   - search
+#   - optimize
+#   - social:
+#       cards: false
+#       cards_layout: default  # Aap isko 'columns', 'left', ya 'right' bhi kar sakte hain
+#       cards_fallback: true
+#   - blog:
+#       post_readtime: true
+#       draft_on_serve: true
+#       categories: true
+#       categories_name: Topics
+#       categories_sort_by: !!python/name:material.plugins.blog.view_post_count
+#       categories_sort_reverse: true
+#       comments_path: "#__comments"
+
+
+# # ============================================================
+# # CUSTOM CSS
+# # ============================================================
+# extra_css:
+#   - stylesheets/extra.css
+
+# extra_javascript:
+#   - js/contact.js
+
+# # ============================================================
+# # EXTRA — Analytics + Consent + Feedback + Social
+# # ⚠️ Pehle 'extra' 2 baar tha — fix kar diya
+# # ⚠️ 'social' bhi 2 baar tha — fix kar diya
+# # ⚠️ 'consent' aur 'feedback' galat indent tha — fix kar diya
+# # ============================================================
+# extra:
+#   analytics:
+#     provider: google
+#     property: G-02D58BQMW5
+
+#     # Page feedback — har page ke neeche rating buttons
+#     feedback:
+#       title: Was this page helpful?
+#       ratings:
+#         - icon: material/emoticon-happy-outline
+#           name: This page was helpful
+#           data: 1
+#           note: Thanks for your feedback!
+#         - icon: material/emoticon-sad-outline
+#           name: This page could be improved
+#           data: 0
+#           note: Thanks for your feedback!
+
+#   # Cookie consent popup
+#   consent:
+#     title: Cookie Consent 🍪
+#     description: >-
+#       We use cookies to analyze site traffic and improve your experience.
+#       Your privacy is important to us!
+#     actions:
+#       - accept
+#       - reject
+#       - manage
+
+#   # Social links
+#   social:
+#     - icon: fontawesome/brands/github
+#       link: https://github.com/rmszk
+#     - icon: fontawesome/brands/linkedin
+#       link: https://linkedin.com/in/yourname
+#     - icon: fontawesome/brands/twitter
+#       link: https://twitter.com/yourhandle
+
+
+# # ============================================================
+# # MARKDOWN EXTENSIONS
+# # ============================================================
+# markdown_extensions:
+#   - attr_list
+#   - md_in_html
+#   - admonition
+#   - pymdownx.details
+#   - pymdownx.superfences
+#   - pymdownx.tabbed:
+#       alternate_style: true
+#   - pymdownx.emoji:
+#       emoji_index: !!python/name:material.extensions.emoji.twemoji
+#       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 # ============================================================
 # SITE INFORMATION
 # ============================================================
-site_name: My Portfolio
+site_name: Portfolio
+site_url: https://rmszk.github.io/
 site_description: A Collection of my projects
-
 
 # ============================================================
 # NAVIGATION
@@ -17,7 +186,6 @@ nav:
   - Blog:
       - blog/index.md
   - Contact: contact.md
-
 
 # ============================================================
 # THEME — Material for MkDocs
@@ -70,13 +238,11 @@ theme:
         icon: material/lightbulb-on
         name: Switch to light mode
 
-
 # ============================================================
 # GITHUB REPO LINK
 # ============================================================
 repo_url: https://github.com/rmszk
 repo_name: rmszk
-
 
 # ============================================================
 # PLUGINS
@@ -84,7 +250,9 @@ repo_name: rmszk
 plugins:
   - search
   - optimize
-  - social
+  - social:
+      cards: true           # Local system par cairo error se bachne ke liye
+      cards_fallback: true    # <--- Yeh line zaroori hai taake cairo missing hone par local build crash na ho
   - blog:
       post_readtime: true
       draft_on_serve: true
@@ -94,19 +262,17 @@ plugins:
       categories_sort_reverse: true
       comments_path: "#__comments"
 
-
 # ============================================================
-# CUSTOM CSS
+# CUSTOM CSS & JS
 # ============================================================
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - js/contact.js
 
 # ============================================================
-# EXTRA — Analytics + Consent + Feedback + Social
-# ⚠️ Pehle 'extra' 2 baar tha — fix kar diya
-# ⚠️ 'social' bhi 2 baar tha — fix kar diya
-# ⚠️ 'consent' aur 'feedback' galat indent tha — fix kar diya
+# EXTRA — Analytics + Consent + Feedback + Social (FIXED SPACING)
 # ============================================================
 extra:
   analytics:
@@ -137,7 +303,7 @@ extra:
       - reject
       - manage
 
-  # Social links
+  # Social links (Social ab extra ke andar agaya ha)
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/rmszk
@@ -145,7 +311,6 @@ extra:
       link: https://linkedin.com/in/yourname
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/yourhandle
-
 
 # ============================================================
 # MARKDOWN EXTENSIONS
