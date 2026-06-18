@@ -4,9 +4,7 @@ icon: material/card-account-mail
 
 # 📬 Contact Me
 
----
-
-## 📬 Let's Connect
+## Let's Connect
 Feel free to reach out for collaboration, freelance work, or any project discussion 🚀
 
 ---
@@ -14,7 +12,7 @@ Feel free to reach out for collaboration, freelance work, or any project discuss
 ## 🌐 Social Links
 
 [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github)](https://github.com/rmszk)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://linkedin.com/in/yourusername)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://linkedin.com/in/rmszk)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/r_m_sz/)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?logo=whatsapp&logoColor=white)](https://wa.me/923028124650?text=Hello%20I%20visited%20your%20portfolio)
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/raoshahroz44204)
