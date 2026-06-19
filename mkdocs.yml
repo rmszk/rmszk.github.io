@@ -18,6 +18,7 @@ nav:
       - blog/index.md
   - Contact: contact.md
 
+
 # ============================================================
 # THEME — Material for MkDocs
 # ============================================================
@@ -33,12 +34,14 @@ theme:
   features:
     # --- Navigation Features ---
     - navigation.icons
-    - navigation.instant
+    #- navigation.instant
+    #- navigation.tabs
+    - navigation.tabs.image
     - navigation.tracking
     - navigation.sections
     - navigation.top
     - navigation.indexes
-    - navigation.footer     # <--- Yeh line yahan add kar dein
+    - navigation.footer     
     
 
     # --- Search Features ---
@@ -145,7 +148,9 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://youtube.com/@code_with_sherry.1
     - icon: fontawesome/brands/tiktok
-      link: https://tiktok.com/@r_m_sz 
+      link: https://tiktok.com/@r_m_sz
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/raoshahroz44204
 
 # ============================================================
 # MARKDOWN EXTENSIONS

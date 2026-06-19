@@ -2,6 +2,7 @@
 icon: material/lightning-bolt
 ---
 
+
 # ⚡ Skills
 
 Here is my complete technical skill set in data analytics, visualization, and development tools.

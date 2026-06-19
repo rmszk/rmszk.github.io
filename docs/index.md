@@ -16,7 +16,7 @@ description: Data Analytics & Data Scientist Portfolio
   <meta name="twitter:image" content="https://rmszk.github.io/assets/pic.png" />
 </phoenix-meta>
 
-<div class="profile-hero">
+<div class="profile-hero" data-aos="fade-up" data-aos-delay="100">
   <img src="assets/pic.png" class="profile-pic" alt="Shahroz">
   <h1>Shahroz</h1>
   <p class="tagline">Data Analytics &nbsp;|&nbsp; Data Scientist</p>
@@ -32,6 +32,8 @@ description: Data Analytics & Data Scientist Portfolio
 
 ---
 
+<div data-aos="fade-right" data-aos-delay="200" markdown="1">
+
 ## 👋 About Me
 
 I turn data into insights and build simple, meaningful dashboards and reports.
@@ -40,7 +42,11 @@ with a focus on **Data Analytics & Visualization**.
 
 🎯 Goal: Become a **Senior Data Scientist** and work with global tech companies.
 
+</div>
+
 ---
+
+<div data-aos="fade-left" data-aos-delay="300" markdown="1">
 
 ## 🛠️ Tools I Use
 
@@ -59,7 +65,11 @@ with a focus on **Data Analytics & Visualization**.
 - 🐍 Python, SQL, Power BI & Tableau
 - 🎯 Goal: **Senior Data Scientist**
 
+</div>
+
 ---
+
+<div data-aos="fade-up" data-aos-delay="400" markdown="1">
 
 ## 🚀 Quick Links
 
@@ -69,3 +79,5 @@ with a focus on **Data Analytics & Visualization**.
 
 > 💡 For full list of projects and repositories, visit my
 > [GitHub Profile](https://github.com/rmszk)
+
+</div>
