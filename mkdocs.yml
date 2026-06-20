@@ -1,7 +1,7 @@
 # ============================================================
 # SITE INFORMATION
 # ============================================================
-site_name: Portfolio
+site_name: Data Analytics
 site_url: https://rmszk.github.io/
 site_description: A Collection of my projects
 
@@ -49,10 +49,10 @@ theme:
     - search.highlight
 
     # --- Content Features ---
-    - content.code.copy
+    #- content.code.copy
     - content.tabs.link
-    - content.action.edit
-    - content.action.view
+    # - content.action.edit
+    # - content.action.view
     - header.autohide
 
   icon:

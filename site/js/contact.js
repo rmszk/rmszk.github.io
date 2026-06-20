@@ -1,5 +1,39 @@
 document.addEventListener('DOMContentLoaded', function() {
-  // FLOATING BUBBLE & MODAL LOGIC ONLY
+  
+  // ==========================================
+  // 🚀 PART 1: AOS ANIMATION INJECTION & INIT
+  // ==========================================
+  
+  // 1. AOS ki CSS inject karna
+  if (!document.getElementById('aos-css')) {
+    const aosStyles = document.createElement('link');
+    aosStyles.id = 'aos-css';
+    aosStyles.rel = 'stylesheet';
+    aosStyles.href = 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css';
+    document.head.appendChild(aosStyles);
+  }
+
+  // 2. AOS ki JavaScript Library load aur initialize karna
+  if (!document.getElementById('aos-js')) {
+    const aosScript = document.createElement('script');
+    aosScript.id = 'aos-js';
+    aosScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js';
+    aosScript.onload = function() {
+      // Library load hote hi premium settings ke sath initialize karein
+      AOS.init({
+        duration: 1000,   // Animation ki speed (1 second)
+        once: true,       // Srif pehli dafa scroll par slide ho
+        offset: 120,      // Element screen par thoda sa upar aaye tab chalay
+        easing: 'ease-out-cubic' // Smooth cubic easing transition
+      });
+    };
+    document.body.appendChild(aosScript);
+  }
+
+  // ==========================================
+  // 💬 PART 2: FLOATING BUBBLE & MODAL LOGIC
+  // ==========================================
+  
   // Inject Dynamic Styles with Premium Animations (Fully Dark Mode Adaptive)
   const style = document.createElement('style');
   style.textContent = `
@@ -138,7 +172,6 @@ document.addEventListener('DOMContentLoaded', function() {
   function closeModal() {
     modal.classList.add('modal-hide');
     overlay.style.opacity = '0';
-    // Animation khatam hone ke baad display none karenge
     setTimeout(() => {
       modal.classList.remove('modal-show');
       overlay.style.display = 'none';

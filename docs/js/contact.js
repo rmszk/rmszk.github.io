@@ -31,12 +31,13 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // ==========================================
-  // 💬 PART 2: FLOATING BUBBLE & MODAL LOGIC
+  // 💬 PART 2: FLOATING BUBBLE & LAYOUT STYLES
   // ==========================================
   
-  // Inject Dynamic Styles with Premium Animations (Fully Dark Mode Adaptive)
+  // Inject Dynamic Styles with Premium Animations & Structural Adjustments
   const style = document.createElement('style');
   style.textContent = `
+    /* Floating Form Input Styles */
     #float-name, #float-email, #float-message {
       width: 100%;
       padding: 10px;
@@ -59,8 +60,8 @@ document.addEventListener('DOMContentLoaded', function() {
     .float-overlay {
       position: fixed; top: 0; left: 0; width: 100%; height: 100%;
       z-index: 9997; display: none;
-      background: rgba(0, 0, 0, 0.1); /* Halka sa dim effect backdrop ke liye */
-      backdrop-filter: blur(2px); /* Modern subtle blur */
+      background: rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(2px);
       transition: opacity 0.3s ease;
     }
 
@@ -96,6 +97,24 @@ document.addEventListener('DOMContentLoaded', function() {
     .modal-hide {
       animation: popupSlideDown 0.25s ease-in forwards;
     }
+
+    /* 🛠️ FIXES FOR LANDSCAPE LAYOUT & PADDING (Aapka CSS safe zone mein) */
+    
+    /* 1. Edit/View Source icons ko hide karna taake top space flush ho sake */
+    .md-content__action {
+      display: none !important;
+    }
+
+    /* 2. Home page ke main article block ki padding/margin override karna */
+    .md-content__inner {
+      margin-top: 0 !important;
+      padding-top: 0 !important;
+    }
+
+    /* 3. Avatar ko har haal mein round rakhna aur layout responsive rakhna */
+    .profile-pic {
+      border-radius: 50% !important;
+    }
   `;
   document.head.appendChild(style);
 
@@ -130,7 +149,7 @@ document.addEventListener('DOMContentLoaded', function() {
     border-radius: 16px;
     box-shadow: 0 8px 30px rgba(0,0,0,0.2); padding: 24px;
     z-index: 9998; display: none; font-family: sans-serif;
-    transform-origin: bottom right; /* Animation bubble ki taraf se start hogi */
+    transform-origin: bottom right;
   `;
 
   modal.innerHTML = `
