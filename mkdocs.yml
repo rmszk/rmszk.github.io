@@ -51,7 +51,7 @@ theme:
     # --- Content Features ---
     #- content.code.copy
     - content.tabs.link
-    # - content.action.edit
+    #- content.action.edit
     # - content.action.view
     - header.autohide
 

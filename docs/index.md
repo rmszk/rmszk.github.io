@@ -33,7 +33,7 @@ description: Data Analytics & Data Scientist Portfolio
       </div>
     </div>
     
-  <p class="tagline" style="margin-top: 10px; font-weight: 500; font-size: 18px; color: hsla(--md-default-fg-color);">Data Analytics &nbsp;|&nbsp; Data Scientist</p>
+  <p class="tagline" style="margin-top: 10px; font-weight: 500; font-size: 18px; color: hsla(--md-default-fg-color);">Data Analytics &nbsp;|&nbsp; Data Science</p>
 
   <div style="margin-top: 15px; display: block;">
       <img src="https://visitor-badge.laobi.icu/badge?page_id=rmszk.portfolio" alt="Visitors">
@@ -54,7 +54,7 @@ description: Data Analytics & Data Scientist Portfolio
 ## 👋 About Me
 
 I turn data into insights and build simple, meaningful dashboards and reports.
-Currently working at **Sybrid Karachi** as Technical Support Team Lead,
+Currently working at **Sybrid Karachi** as Team Leader,
 with a focus on **Data Analytics & Visualization**.
 
 🎯 Goal: Become a **Senior Data Scientist** and work with global tech companies.
@@ -77,7 +77,7 @@ with a focus on **Data Analytics & Visualization**.
 
 ## 📌 Highlights
 
-- 🏢 **Sybrid Karachi** — Technical Support Team Lead
+- 🏢 **Sybrid Karachi** — Technical Team Leader
 - 📊 Focus on **Data Analytics & Visualization**
 - 🐍 Python, SQL, Power BI & Tableau
 - 🎯 Goal: **Senior Data Scientist**

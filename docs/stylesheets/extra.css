@@ -71,7 +71,7 @@
 /* Desktop hover — card upar jati hai + blue shadow */
 .project-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 30px rgba(0, 119, 255, 0.4);
+  box-shadow: 0 10px 30px rgb(0, 119, 255);
 }
 
 /* Mobile tap effect — hover nahi hota mobile mein */
@@ -79,7 +79,7 @@
 @media (hover: none) {
   .project-card:active {
     transform: translateY(-3px);
-    box-shadow: 0 10px 30px rgba(0, 119, 255, 0.4);
+    box-shadow: 0 10px 30px rgb(1, 12, 24);
     transition: all 0.15s ease;
   }
 }
@@ -267,8 +267,8 @@
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid #1976d2;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  border: 3px solid #21578d;
+  box-shadow: 0 4px 20px rgba(3, 3, 3, 0.2);
   margin: 0 auto 15px;
   transition: transform 0.3s ease;
 }

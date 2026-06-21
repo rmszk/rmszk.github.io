@@ -8,6 +8,10 @@ icon: material/waves
 📅 **2024-02-01**
 
 ---
+<div style="text-align: center; margin: 20px 0;">
+  <img src="../../assets/Water_turbidity_monitoring _system_diagram.jpg" alt="Water Quality Monitoring" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+</div>
+---
 
 #### 📌 Overview
 
@@ -57,9 +61,32 @@ The system continuously evaluates water conditions using multiple sensors and tr
 
 ▶️ Watch Demo Video:
 
-<iframe width="80%" height="400"
-src="https://www.youtube.com/embed/Xd2p7UrdOgs"
+<!-- <iframe width="80%" height="400"
+src="https://youtube.com/shorts/jE9xdBtO9_Q"
 title="YouTube video"
 frameborder="0"
 allowfullscreen>
-</iframe>
+
+</iframe> -->
+
+<!-- <div style="width: 100%; display: flex; justify-content: center; margin: 15px 0;">
+  <iframe 
+    src="https://www.youtube.com/embed/jE9xdBtO9_Q?rel=0&modestbranding=1" 
+    title="YouTube video player" 
+    style="width: 100%; max-width: 280px; height: 500px; border: none; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);" 
+    allowfullscreen>
+  </iframe>
+</div> -->
+
+
+<div style="width: 100%; display: flex; justify-content: center; margin: 20px 0;">
+  <iframe 
+    src="https://www.tiktok.com/embed/v2/----mention- Vido ID" 
+    style="width: 100%; max-width: 325px; height: 580px; border: none; border-radius: 12px; box-shadow: 0 4px 15px rgba(8, 8, 8, 0.1);" 
+    allowfullscreen 
+    scrolling="no" 
+    allow="encrypted-media;">
+  </iframe>
+</div>
+
+
