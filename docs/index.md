@@ -2,6 +2,7 @@
 icon: material/home-circle
 title: Data Analytics | Shahroz
 description: Data Analytics & Data Scientist Portfolio
+tags: [ Python Developer, Portfolio, Data Science, Data Analyst]
 ---
 
 <phoenix-meta>

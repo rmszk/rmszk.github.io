@@ -1,5 +1,6 @@
 ---
 icon: material/card-account-mail
+tags: [Freelancing, Remote Work, Formspree, Collaboration, Hire Me, LinkedIn]
 ---
 
 # 📬 Contact Me

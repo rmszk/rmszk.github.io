@@ -1,15 +1,20 @@
 ---
 icon: material/account
+title: "About Me"
+tags:
+  - Data Analyst
+  - Python Enthusiast
+  - Content Creator
 ---
-# 👋 About Me
+## 👋 About Me
 
 Hi, I'm **Shahroz** — a passionate learner in the field of **Data Analytics** with a strong interest in working with data and solving real-world problems through insights.
 
-Currently, I am working at **Sybrid Karachi** as a **Technical Support Team Lead**, where I manage support operations and contribute to technical problem-solving in a fast-paced environment.
+Currently, I am working at **Sybrid Karachi** as a **Team Leader**, where I manage support operations and contribute to technical problem-solving in a fast-paced environment.
 
 ---
 
-## 💻 What I Do
+### 💻 What I Do
 
 I enjoy working with data, learning new technologies, and building efficient solutions. My main focus areas include:
 
@@ -23,7 +28,7 @@ I enjoy working with data, learning new technologies, and building efficient sol
 
 ---
 
-## ⚡ Skills
+### ⚡ Skills
 
 <!-- - Python  
 - SQL  
@@ -77,7 +82,7 @@ I enjoy working with data, learning new technologies, and building efficient sol
 
 </ul>
 
-## 🎯 My Goal
+### 🎯 My Goal
 
 My long-term goal is to become a **Senior Data Scientist** and work with a top global tech company where I can contribute to impactful, data-driven solutions.
 
@@ -85,6 +90,6 @@ I am continuously learning and improving my skills to achieve this goal.
 
 ---
 
-## 📫 Let’s Connect
+### 📫 Let’s Connect
 
 Feel free to explore my projects or contact me for collaboration opportunities 🚀

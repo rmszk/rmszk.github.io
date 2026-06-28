@@ -1,13 +1,21 @@
 ---
+#pin: true
+draft: true
+title: Data Analytics
+readtime: 15
 date: 2026-06-11
 authors:
-  - shahroz
+  - development
 categories:
   - Career
   - Data Analytics
+tags:
+  - Data Analytics
+  - Data Sceince
+  - Pthon
 ---
 
-# My Journey into Data Analytics :fontawesome-solid-chart-line:
+## My Journey into Data Analytics
 
 
 I started my career in Technical Support, where I developed problem-solving and troubleshooting skills. While working in support, I discovered my interest in data analysis and automation.

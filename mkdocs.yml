@@ -15,8 +15,9 @@ nav:
   - About: about.md
   - Resume: resume.md
   - Blog:
-      - blog/index.md
+    - 'Blog': blog/index.md
   - Contact: contact.md
+  - Tags: tags.md
 
 
 # ============================================================
@@ -35,7 +36,7 @@ theme:
     # --- Navigation Features ---
     - navigation.icons
     #- navigation.instant
-    #- navigation.tabs
+    - navigation.tabs
     - navigation.tabs.image
     - navigation.tracking
     - navigation.sections
@@ -85,10 +86,17 @@ repo_name: rmszk
 # ============================================================
 plugins:
   - search
+  - tags:
+      tags_file: tags.md
+      allowed_tags: []
+  - git-revision-date-localized:
+      type: date
+      enable_creation_date: true
+  #- typeset
   - optimize
   - social:
-      cards: true           # Local system par cairo error se bachne ke liye
-      cards_fallback: true    # <--- Yeh line zaroori hai taake cairo missing hone par local build crash na ho
+      cards: true
+      cards_fallback: true    # Local system par cairo error se bachne ke liye
   - blog:
       post_readtime: true
       draft_on_serve: true
@@ -96,6 +104,29 @@ plugins:
       categories_name: Topics
       categories_sort_by: !!python/name:material.plugins.blog.view_post_count
       categories_sort_reverse: true
+      categories_toc: true
+      #pagination_format: "~5~"
+      pagination_if_single_page: true
+      pagination_keep_content: true
+      draft: true
+      draft_if_future_date: true
+      post_tags: true
+
+      authors_profiles: true
+      authors_profiles_name: Authors 
+      #categories_pagination_per_page: 5
+      # 👇 Sirf yeh aik line rakhein, is se link ka purana system kharab nahi hoga aur error khatam ho jayega
+      post_title_format: "{title}"
+ 
+  - meta
+
+  - rss:
+      match_path: blog/posts/.*
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
       comments_path: "#__comments"
 
 # ============================================================
@@ -166,3 +197,5 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+copyright: "Copyright &copy; 2026 Rao Muhammad shahroz | Data Analytics"

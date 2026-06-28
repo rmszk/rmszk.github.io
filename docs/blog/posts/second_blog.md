@@ -1,12 +1,18 @@
 ---
+draft: true
+title: Python
 date: 2026-06-10
 authors:
-  - shahroz
+  - development
 categories:
   - Python
+tags:
+  - programming
+  - python
 ---
 
-# Why I Chose Python :fontawesome-brands-python: 
+
+### Why I Chose Python  
 
 Python is one of the most beginner-friendly and powerful programming languages available today.
 

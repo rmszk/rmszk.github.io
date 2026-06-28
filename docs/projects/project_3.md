@@ -1,4 +1,15 @@
-# 📄 FIR Application
+---
+title: "FIR Application Management System"
+date: 2024-02-01
+authors:
+  - shahroz
+categories:
+  - Projects
+tags: [C#, .NET, Desktop App, MySQL, Database, Case Management]
+comments: true
+---
+
+## 📄 **FIR Application**
 
 👤 **Rao Muhammad Shahroz**  
 📅 **2024-02-01**
@@ -13,16 +24,17 @@
 &nbsp;<img src="https://cdn-icons-png.flaticon.com/512/732/732225.png" width="25"/>
 &nbsp; </p>
 
-🔗 [View Project](https://github.com/rmszk/FIR_Desktop_Application)
+
+[:material-github: View Project](https://github.com/rmszk/FIR_Desktop_Application){ .md-button }
 
 ---
 
-## 📌 Overview
+### 📌 Overview
 A desktop FIR management system that allows users to register and track FIRs online.
 
 ---
 
-## 🔥 Key Features
+### 🔥 Key Features
 - Online FIR registration
 - Case tracking system
 - Duplicate detection (same item in multiple cities)
@@ -31,7 +43,7 @@ A desktop FIR management system that allows users to register and track FIRs onl
 
 ---
 
-## 💡 Real Example
+### 💡 Real Example
 If a bike is stolen in one city and later found in another city:
 - System detects duplicate entry
 - Updates status automatically
@@ -39,7 +51,7 @@ If a bike is stolen in one city and later found in another city:
 
 ---
 
-## 💻 Technologies Used
+### 💻 Technologies Used
 - C# (.NET Framework)
 - MySQL Database
 - Windows Desktop Application

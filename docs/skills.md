@@ -1,5 +1,6 @@
 ---
 icon: material/lightning-bolt
+tags: [Python, SQL, Data Visualization, Git, Markdown, Automation]
 ---
 
 

@@ -1,5 +1,7 @@
 ---
 icon: material/waves
+comments: true
+tags: [Hardware Integration, Automation, Load Management, Circuit Design, Arduino]
 ---
 
 # 🌊 Water Turbidity Monitoring System

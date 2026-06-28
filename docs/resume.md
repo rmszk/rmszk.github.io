@@ -1,5 +1,6 @@
 ---
 icon: material/file-document
+tags: [CV, Data Scientist, Web Developer, Technical Writer]
 ---
 # 📄 **Resume**
 
@@ -20,7 +21,4 @@ Here you can view or download my latest CV.
 
 ---
 
-## 📥 **Download Resume**
-<a href="assets/resume.pdf" download class="md-button md-button--primary">
-    Download CV
-</a>
+[:material-file-download: Download CV](assets/resume.pdf){ .md-button .md-button--primary }

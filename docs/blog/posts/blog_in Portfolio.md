@@ -1,21 +1,47 @@
 ---
+pin: true
+draft: true
+title: An Introducation MKDocs
+slug: help-im-trapped-in-a-universe-factory
+readtime: 15
 date: 2026-05-25
-authors:
-  - shahroz
-categories:
+tags:
+  - Introducation
+  - Mkdocs
   - Portfolio
-  - MkDocs
+authors:
+  - development
+categories:
+  - Blog
+summary: An introducation to MKDocs, Fast simple, and Flexible static site generator for building project Documentation.
 ---
 
-# :material-web: How I Built My Data Analytics Portfolio Using MkDocs & Material Theme
+## How I Built My Data Analytics Portfolio Using MkDocs & Material Theme
 
 Building a personal portfolio is one of the best ways to showcase your data journey, but creating one from scratch can be overwhelming. I wanted a clean, fast, and highly customizable site that holds my projects, vlogs, and resumes without slowing down.
 
 Here is the honest truth: while I am confident in **Python** and **Markdown**, I didn't have deep knowledge of **CSS** or **JavaScript**. Instead of letting that stop me, I leveraged **AI collaboration** to code all the custom animations and layout tweaks, while I managed the core architecture, logic, and implementation myself!
 
+
+
 <!-- more -->
 
-## :material-tools: Technologies & Tools Used
+
+### :material-tools: Technologies & Tools Used
+
+
+- :material-book-open-page-variant: **MkDocs** — The fast and lightweight static site generator engine.
+- :material-material-design: **Material for MkDocs** — The premium theme providing a modern, responsive UI.
+- :fontawesome-brands-github: **GitHub & GitHub Pages** — Used for version control and free public hosting.
+- :fontawesome-brands-python: **Python** — The backbone for managing packages and environment control.
+- :material-email-fast-outline: **Formspree** — Handles the contact form submissions seamlessly without a backend.
+- :fontawesome-brands-github-alt: **Giscus** — GitHub Discussions-powered comment system injected into the blog.
+- :material-google-analytics: **Google Analytics** — Integrated tracking paired with a visitor cookie consent dialog.
+- :material-image-size-select-large: **pngquant** — Backend image compression via the `optimize` plugin.
+
+Below is a quick description of what each one does in this project:
+
+### :material-tools: Technologies & Tools Used
 
 <div align="center" markdown="1">
 
@@ -30,21 +56,9 @@ Here is the honest truth: while I am confident in **Python** and **Markdown**, I
 ![pngquant](https://img.shields.io/badge/pngquant-FF6F00?logo=files&logoColor=white)
 
 </div>
-
-Below is a quick description of what each one does in this project:
-
-- **MkDocs** — The fast and lightweight static site generator engine.
-- **Material for MkDocs** — The premium theme providing a modern, responsive UI.
-- **GitHub & GitHub Pages** — Used for version control and free public hosting.
-- **Python** — The backbone for managing packages and environment control.
-- **Formspree** — Handles the contact form submissions seamlessly without a backend.
-- **Giscus** — GitHub Discussions-powered comment system injected into the blog.
-- **Google Analytics** — Integrated tracking paired with a visitor cookie consent dialog.
-- **pngquant** — Backend image compression via the `optimize` plugin.
-
 ---
 
-## :material-video: Video Walkthrough
+### :material-video: Video Walkthrough
 
 You can watch the quick video overview of my portfolio structure, custom animations, and layout here:
 
@@ -60,11 +74,11 @@ You can watch the quick video overview of my portfolio structure, custom animati
 
 ---
 
-## :material-text-alignment-left: Project Description & Step-by-Step Guide
+### :material-format-align-left: Project Description & Step-by-Step Guide
 
 Here is the exact step-by-step roadmap showing how this architecture was configured and how you can replicate it.
 
-### Step 1: Environment & Tool Setup
+#### Step 1: Environment & Tool Setup
 
 First, set up an isolated virtual environment using Conda to avoid version conflicts, then install the core packages:
 
@@ -79,7 +93,7 @@ pip install mkdocs-material[imaging]
 !!! warning "Important Note for Image Optimization"
     I downloaded `pngquant` from its official site, extracted it, and pasted `pngquant.exe` into `C:\Windows\System32\`. This allows the `optimize` plugin to auto-compress image files without throwing errors during site compilation.
 
-### Step 2: Organizing the Folder Structure
+#### Step 2: Organizing the Folder Structure
 
 I structured my workspace so adding new projects, resumes, or blogs in the future becomes seamless:
 
@@ -105,7 +119,7 @@ portfolio_of_shahroz/
     └── comments.html           # Injecting Giscus comment system layout
 ```
 
-### Step 3: Custom Animations & Advanced Features
+#### Step 3: Custom Animations & Advanced Features
 
 This is where the magic happened. I used my Python background to handle the site logic, and used AI assistance to build custom CSS animations inside `extra.css`.
 
@@ -115,7 +129,7 @@ I also configured several built-in Material theme options in my `mkdocs.yml`:
 - **Developer Tools** — Added `content.code.copy` so users can instantly copy my code blocks with a single click.
 - **SEO & Analytics** — Configured custom cookie consent popups linked directly to Google Analytics.
 
-### Step 4: Deploying to GitHub Pages
+#### Step 4: Deploying to GitHub Pages
 
 After pushing source code changes to the repository, you only need one single command to compile and publish the live site publicly:
 
@@ -131,7 +145,7 @@ mkdocs gh-deploy
 
 ---
 
-## :material-lightbulb-on: Key Takeaways & Lessons Learned
+### :material-lightbulb-on: Key Takeaways & Lessons Learned
 
 Developing this platform taught me a lot more than just code syntax:
 

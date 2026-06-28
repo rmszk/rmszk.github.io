@@ -3,9 +3,11 @@ icon: material/typewriter
 comments: true
 ---
 
-# :material-post-outline: Blog
+<!--# :material-post-outline: Blog
 
-🚀 Welcome to my dev space where I document my learning journey.
+## Blog
+
+ 🚀 Welcome to my dev space where I document my learning journey.
 
 ---
 
@@ -24,4 +26,4 @@ comments: true
 
 ---
 
-💬 “Learning in public is the fastest way to grow.”
+💬 “Learning in public is the fastest way to grow.” -->
