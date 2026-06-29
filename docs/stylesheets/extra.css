@@ -4,7 +4,7 @@
 
 .md-typeset .admonition {
     border-radius: 12px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 6px 20px rgba(14, 13, 13, 0.1);
     transition: 0.3s;
 }
 
@@ -71,7 +71,7 @@
 /* Desktop hover — card upar jati hai + blue shadow */
 .project-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 30px rgb(0, 119, 255);
+  box-shadow: 0 10px 30px rgb(66, 122, 187);
 }
 
 /* Mobile tap effect — hover nahi hota mobile mein */
@@ -113,7 +113,7 @@
 
 .badge {
   display: inline-block;
-  background: #e3f2fd;
+  background: #d6e9f7;
   color: #0d47a1;
   padding: 3px 8px;
   border-radius: 6px;
@@ -138,7 +138,7 @@
 }
 
 .project-card a:hover {
-  background: #0d47a1;
+  background: #095097;
 }
 
 
@@ -267,7 +267,7 @@
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid #21578d;
+  border: 3px solid #317bc4;
   box-shadow: 0 4px 20px rgba(3, 3, 3, 0.2);
   margin: 0 auto 15px;
   transition: transform 0.3s ease;

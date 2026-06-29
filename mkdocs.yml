@@ -27,6 +27,7 @@ theme:
   name: material
   logo: assets/pic.png
   custom_dir: overrides
+  language: en
 
   font:
     text: Roboto
@@ -48,6 +49,8 @@ theme:
     # --- Search Features ---
     - search.suggest
     - search.highlight
+    - search.share
+
 
     # --- Content Features ---
     #- content.code.copy
@@ -89,6 +92,7 @@ plugins:
   - tags:
       tags_file: tags.md
       allowed_tags: []
+      tags_hierarchy: true
   - git-revision-date-localized:
       type: date
       enable_creation_date: true
@@ -144,7 +148,7 @@ extra_javascript:
 extra:
   analytics:
     provider: google
-    property: G-02D58BQMW5
+    property: G-02D58BQMW5 
 
     # Page feedback — har page ke neeche rating buttons
     feedback:
@@ -182,6 +186,19 @@ extra:
       link: https://tiktok.com/@r_m_sz
     - icon: fontawesome/brands/facebook
       link: https://facebook.com/raoshahroz44204
+  
+  # alternate:
+  #   # English Switcher
+  #   - name: English
+  #     link: /en/ 
+  #     lang: en
+    
+    # # Urdu Switcher
+    # - name: اردو
+    #   link: /ur/
+    #   lang: ur
+
+
 
 # ============================================================
 # MARKDOWN EXTENSIONS

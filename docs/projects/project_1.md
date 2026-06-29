@@ -83,8 +83,8 @@ allowfullscreen>
 
 <div style="width: 100%; display: flex; justify-content: center; margin: 20px 0;">
   <iframe 
-    src="https://www.tiktok.com/embed/v2/----mention- Vido ID" 
-    style="width: 100%; max-width: 325px; height: 580px; border: none; border-radius: 12px; box-shadow: 0 4px 15px rgba(8, 8, 8, 0.1);" 
+    src="https://www.tiktok.com/embed/v2/7656879461983456532" 
+    style="width: 100%; max-width: 325px; height: 580px; border: none; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);" 
     allowfullscreen 
     scrolling="no" 
     allow="encrypted-media;">

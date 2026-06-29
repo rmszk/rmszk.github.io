@@ -12,7 +12,7 @@ Here you can view or download my latest CV.
 
 <div style="width:100%; height:100vh;">
   <iframe
-      src="/assets/resume.pdf"
+      src="/assets/shahroz.pdf"
       width="100%"
       height="100%"
       style="border:none;">

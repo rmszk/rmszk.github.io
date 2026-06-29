@@ -6,4 +6,8 @@ hide:
   - toc
 ---
 
-## Browse Content by Tags
+## Tags
+
+Following is a list of relevant tags:
+
+<!-- material/tags -->
